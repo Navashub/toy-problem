@@ -1,0 +1,22 @@
+{
+  "name": "grade-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "grade-generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Navashub/Grade-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Navashub/Grade-generator/issues"
+  },
+  "homepage": "https://github.com/Navashub/Grade-generator#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
