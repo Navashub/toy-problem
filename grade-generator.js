@@ -1,9 +1,12 @@
 const prompt = require("prompt-sync")();
 function gradeGenerator(){
+    // prompt user for input
     const gradeInput = prompt("Enter student's marks: ");
 
+    // Parse user input as number
     const marks = parseFloat(gradeInput);
 
+    // Determine grade based on the marks
     let grade;
     if (marks > 79){
         grade = 'A';
@@ -17,7 +20,9 @@ function gradeGenerator(){
         grade = 'E';
     }
 
+    // Display grade to the user
     console.log(`Student's grade is: ${grade}`);
 }
 
+// call function to start the process
 gradeGenerator();
